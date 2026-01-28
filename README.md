@@ -34,8 +34,8 @@ df = pd.DataFrame(data)
 print("Dataset:\n", df.head())
 df
 
-X = df[["Hours_Studied"]]   # Independent variable
-y = df["Marks_Scored"]      # Dependent variable
+X = df[["Hours_Studied"]]   
+y = df["Marks_Scored"]      
 
 # Step 4: Train-test split
 X_train, X_test, y_train, y_test = train_test_split(
